@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/img/img",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#0094ff"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/img/img",
+        "iconPath": "icon/_img.png",
+        "selectedIconPath": "icon/img.png",
+        "text": "图片"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "icon/_my.png",
+        "selectedIconPath": "icon/my.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "icon/_search.png",
+        "selectedIconPath": "icon/search.png",
+        "text": "搜索"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
