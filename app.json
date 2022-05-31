@@ -4,7 +4,9 @@
     "pages/img/img",
     "pages/mine/mine",
     "pages/search/search",
-    "pages/logs/logs"
+    "pages/demo01/demo01",
+    "pages/logs/logs",
+    "pages/login/login"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -39,7 +41,7 @@
         "text": "我的"
       },
       {
-        "pagePath": "pages/search/search",
+        "pagePath": "pages/demo01/demo01",
         "iconPath": "icon/_search.png",
         "selectedIconPath": "icon/search.png",
         "text": "搜索"

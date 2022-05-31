@@ -1,2 +1,17 @@
 <!--pages/demo01/demo01.wxml-->
 <text>pages/demo01/demo01.wxml</text>
+<text>123</text>
+<text>456</text>
+<view>123</view>
+<view>456</view>
+<text>hhh</text>
+
+<text>{{msg}}</text>
+
+<view>{{num}}</view>
+
+<view>是否是sb：{{isSb}}</view>
+
+<view>{{person.name}}</view>
+<view>{{person.age}}</view>
+<view>{{person.sex}}</view>
