@@ -5,7 +5,14 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        msg: 'hello world',
+        num: 1000,
+        isSb: false,
+        person: {
+            name: '张三',
+            age: 18,
+            sex: 1
+        }
     },
 
     /**
